@@ -1,0 +1,12 @@
+.input-group{
+    padding-top:5px;
+}
+.form-floating{
+    padding-top:5px;
+}
+.container-button{
+    padding-top:10px;
+}
+
+@media all and (max-width: 600px){
+}

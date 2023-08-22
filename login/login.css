@@ -1,0 +1,30 @@
+*{
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color: #212529;
+}
+form{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px;
+    max-width: 500px;
+}
+/*
+.btn.btn-primary{
+    background-color: #a95db8;
+    border-color: #a95db8;
+
+}
+.btn.btn-primary:hover{
+    background-color: purple;;
+}*/

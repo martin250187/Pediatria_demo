@@ -1,0 +1,78 @@
+html{
+    background-color: #212529;
+}
+body{
+    background-color: #cbbacd;
+}
+section{
+    display: contents;
+    position: relative;
+    min-height: fit-content;
+    width: 95%;
+    max-width: 600px;
+    min-width: 350px;
+    padding: 10px;
+    background-color: #cbbacd;
+    margin: 10px;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+div{
+    padding: 5px;
+}
+select{
+    cursor: pointer;
+}
+option{
+    cursor: pointer;
+}
+
+.btn.btn-primary{
+    background-color: #a95db8;
+    border-color: #a95db8;
+
+}
+.btn.btn-primary:hover{
+    background-color: purple;;
+}
+.navbar.navbar-expand-lg.navbar-dark.bg-dark{
+    min-height: 150px;
+}
+input{
+    cursor:pointer;
+}
+.logo{
+    width:60px;
+    height:60px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding:5px;
+    background-color:white;
+}
+h2{
+    cursor:default;
+    margin-left:30px;
+}
+#menuBtn{
+    margin:5px;
+}
+#editBtn{
+    margin:10px;
+}
+td{
+    min-width:200px
+}
+
+@media all and (max-width: 600px){
+button.navbar-toggler{
+    margin-top:10px;
+}
+h2.navbar-brand{
+    font-size: medium;
+}
+.logo{
+    width:40px;
+    height:40px;
+    margin-left: 0px;
+}
+}

@@ -1,0 +1,15 @@
+.chart{
+    max-width:60%;
+    margin-left:20%;
+    display: flex;
+    justify-content: center;
+}
+@media all and (max-width: 600px){
+    .chart{
+    max-width:100%;
+    margin-left:0;
+    display: block;
+    justify-content: center;
+    height:500px;
+}
+}

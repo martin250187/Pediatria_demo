@@ -1,0 +1,27 @@
+.input-group{
+    padding-top:5px;
+}
+.form-floating{
+    padding-top:5px;
+}
+.container-button{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.form-check.form-check-inline{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+#form {
+        min-width:500px;
+    }
+span.input-group-text{
+    background-color: beige;
+}
+}
+@media all and (max-width: 600px){
+    #form {
+        min-width:-webkit-fill-available;
+    }
+
+}
